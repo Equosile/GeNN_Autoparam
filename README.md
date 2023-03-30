@@ -74,7 +74,7 @@ The goal of this project is to demonstrate some promising potentials that can au
 ## Method
 
 
-The GeNN technology (Nowotny et al., 2009) prepares initial agent populations. Each genotype of each agent in a certain population is evolved by the Genetic Algorithm (Harvey, 1996). In terms of the Genetic Algorithmic approaches, the fixed chance of uniform crossover (50 percent) is addjusted for the tournaments between winners-versus-losers stragegies and then one random gene is mutated. All the random productions of hyperparameters, however, are fulfilled within biological plausibility which lets the variables come up with reasonable coverages.
+The GeNN technology (Nowotny et al., 2009) prepares initial agent populations. Each genotype of each agent in a certain population is evolved by the Genetic Algorithm (Harvey, 1996). In terms of the Genetic Algorithmic approaches, the fixed chance of uniform crossover (50 percent) is addjusted for the tournaments between winners-versus-losers strategies and then one random gene is mutated. All the random productions of hyperparameters, however, are fulfilled within biological plausibility which lets the variables come up with reasonable coverages.
 
 
 One simulation cycle takes two individual agents from one population, contesting their classification learning performances, examining their fitness scores as for the outcomes of the comparisons. Winner agent genes override the genes of the loser, overwriting half of them in a manner of uniform crossover. After that the loser agent from that tournament will have one mutation of its genes, going back to the original population with the winner agent. This cycle repeats as many times as possible until the entire population get composed of many decent agents.
